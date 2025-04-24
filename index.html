@@ -3,9 +3,264 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Barber Shop - Professional Haircuts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>jsfbhbgseahgasg</h1>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">BARBER SHOP</a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home" class="active">HOME</a></li>
+                    <li><a href="#story">OUR STORY</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#prices">PRICE LIST</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Get the most professional haircut for you</h1>
+                    <div class="cta-section">
+                        <h2>Hurry Up! <span>Get good haircut.</span></h2>
+                        <a href="#booking" class="btn">Book a seat</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="story" class="section our-story">
+            <div class="container">
+                <h2>OUR STORY</h2>
+                <div class="content-wrapper">
+                    <div class="text-content">
+                        <h3><i class="fas fa-cut"></i> About Our Barber Shop</h3>
+                        <p>At Barber Shop, we don't just cut hair - we craft confidence. we've perfected the art of men's grooming with a modern twist on classic barbering traditions. Our shop is more than a place to get a haircut; it's where style meets personality.</p>
+                        
+                        <div class="special-offer">
+                            <i class="fas fa-tag"></i>
+                            <span>First-time customers get 15% off!</span>
+                        </div>
+                        
+                        <h3><i class="fas fa-medal"></i> Our Approach</h3>
+                        <p>We believe in quality over quantity. That's why each appointment gets:</p>
+                        <ul class="styled-list">
+                            <li><i class="fas fa-check-circle"></i> Personalized consultation</li>
+                            <li><i class="fas fa-check-circle"></i> Premium grooming products</li>
+                            <li><i class="fas fa-check-circle"></i> Undivided attention from master barbers</li>
+                            <li><i class="fas fa-check-circle"></i> Relaxing, old-school atmosphere</li>
+                        </ul>
+                        
+                        <div class="experience-badge">
+                            <i class="fas fa-award"></i>
+                            <span>15+ years of excellence in men's grooming</span>
+                        </div>
+                    </div>
+                    <div class="image-content">
+                        <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Barber working">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container">
+                <h2>SERVICES</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                        <h3>Hair Cut</h3>
+                        <ul>
+                            <li>Washing</li>
+                            <li>Global styling</li>
+                            <li>Precision cutting</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-razor"></i>
+                        </div>
+                        <h3>Shaves</h3>
+                        <ul>
+                            <li>Traditional hot towel shave</li>
+                            <li>Beard shaping</li>
+                            <li>After-shave treatment</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-spray-can"></i>
+                        </div>
+                        <h3>Styling</h3>
+                        <ul>
+                            <li>Hair coloring</li>
+                            <li>Product application</li>
+                            <li>Style consultation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="prices" class="section price-list">
+            <div class="container">
+                <h2>PRICE LIST</h2>
+                <div class="price-content">
+                    <div class="price-intro">
+                        <p>Starting at <span class="highlight">$50</span></p>
+                        <div class="discount-banner">
+                            <i class="fas fa-percentage"></i>
+                            <span>Military & Student Discounts Available</span>
+                        </div>
+                        <ul class="service-types">
+                            <li>Haircut</li>
+                            <li>Beard Trim</li>
+                            <li>Razor Cut</li>
+                            <li>Shaves</li>
+                            <li>Styling / Color</li>
+                        </ul>
+                    </div>
+                    <div class="price-details">
+                        <ul>
+                            <li><span>Haircut</span><span>$60.00</span></li>
+                            <li><span>Beard Trim</span><span>$40.00</span></li>
+                            <li><span>Razor Cut</span><span>$60.00</span></li>
+                            <li><span>Shaves</span><span>$90.00</span></li>
+                            <li><span>Styling / Color</span><span>$100.00</span></li>
+                        </ul>
+                        <div class="price-cta">
+                            <p>Special package: Haircut + Beard Trim for $85 (save $15!)</p>
+                            <a href="#contact" class="btn">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="section booking">
+            <div class="container">
+                <h2>BOOK A SEAT</h2>
+                <p class="subtitle">Please fill out the form and we'll get back to you</p>
+                <div class="booking-notice">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Book 24 hours in advance and get a free styling product!</span>
+                </div>
+                <form id="booking-form" class="booking-form">
+                    <div class="form-group">
+                        <label for="fullname">Full name</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Mobile</label>
+                        <input type="tel" id="phone" name="phone" placeholder="010-020-0340" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <input type="time" id="time" name="time" value="18:30">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Select Service</label>
+                        <select id="service" name="service" required>
+                            <option value="">Choose a service</option>
+                            <option value="haircut">Haircut</option>
+                            <option value="beard-trim">Beard Trim</option>
+                            <option value="razor-cut">Razor Cut</option>
+                            <option value="shave">Shave</option>
+                            <option value="styling">Styling / Color</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="people">Number of People</label>
+                        <input type="number" id="people" name="people" min="1" max="10" value="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="comments">Comments (Optional)</label>
+                        <textarea id="comments" name="comments" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn submit-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>CONTACT INFORMATION</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in touch</h3>
+                        <p><i class="fas fa-phone"></i> (+69) 981102-9169</p>
+                        <p><i class="fas fa-envelope"></i> hello@barber.beauty</p>
+                        <div class="opening-hours">
+                            <h4><i class="far fa-clock"></i> Opening Hours</h4>
+                            <p>Mon-Fri: 9am - 8pm</p>
+                            <p>Sat: 10am - 6pm</p>
+                            <p>Sun: 12pm - 5pm</p>
+                        </div>
+                    </div>
+                    <div class="branches">
+                        <h3>Our Branches</h3>
+                        <div class="branch">
+                            <h4><i class="fas fa-map-marker-alt"></i> Barbers of Cloud9</h4>
+                            <p>Barbers of Cloud9 Str. 7, Philippines</p>
+                        </div>
+                        <div class="branch">
+                            <h4><i class="fas fa-map-marker-alt"></i> Beachfront Barbers</h4>
+                            <p>Beachfront Barbers. 27, Philippines</p>
+                        </div>
+                        <div class="branch">
+                            <h4><i class="fas fa-map-marker-alt"></i> Bamboo & Blade</h4>
+                            <p>Bamboo & Blade 2, Philippines</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">BARBER SHOP</a>
+                    <p class="footer-tagline">Crafting confidence, one cut at a time</p>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#story">OUR STORY</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#prices">PRICE LIST</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2023 Barber Shop · Design · Transparente</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
